@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{161DC9A1-617F-4F14-AC96-22D03E817249}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPattern", "ProxyPattern\ProxyPattern.csproj", "{A6DA0072-C119-426A-9D42-638766E46AB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProxyPattern", "ProxyPattern\ProxyPattern.csproj", "{A6DA0072-C119-426A-9D42-638766E46AB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{E85055ED-766B-410F-B979-4A4DF2310432}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A6DA0072-C119-426A-9D42-638766E46AB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6DA0072-C119-426A-9D42-638766E46AB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6DA0072-C119-426A-9D42-638766E46AB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E85055ED-766B-410F-B979-4A4DF2310432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E85055ED-766B-410F-B979-4A4DF2310432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E85055ED-766B-410F-B979-4A4DF2310432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E85055ED-766B-410F-B979-4A4DF2310432}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
