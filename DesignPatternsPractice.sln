@@ -1,25 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31321.278
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{161DC9A1-617F-4F14-AC96-22D03E817249}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "StrategyPattern\Strategy.csproj", "{161DC9A1-617F-4F14-AC96-22D03E817249}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProxyPattern", "ProxyPattern\ProxyPattern.csproj", "{A6DA0072-C119-426A-9D42-638766E46AB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy", "ProxyPattern\Proxy.csproj", "{A6DA0072-C119-426A-9D42-638766E46AB7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{E85055ED-766B-410F-B979-4A4DF2310432}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "AdapterPattern\Adapter.csproj", "{E85055ED-766B-410F-B979-4A4DF2310432}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{DBE0CED6-184B-4E9A-92DB-A46474360EF6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{8C5B458C-993C-43E7-A032-A8A3FCC0DA69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{0697AB60-8EB3-42C8-9C38-D0C6B66C8D26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{0697AB60-8EB3-42C8-9C38-D0C6B66C8D26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{3084DC5C-9650-4672-BA39-9AAF4C2C26CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "Prototype\Prototype.csproj", "{3084DC5C-9650-4672-BA39-9AAF4C2C26CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{A1EA9FF3-9D60-4B45-B54C-AD7B611B6FBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{A1EA9FF3-9D60-4B45-B54C-AD7B611B6FBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{201B034E-64BF-4494-B622-960BBF26D7E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Composite\Composite.csproj", "{201B034E-64BF-4494-B622-960BBF26D7E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HighOrderAdapter", "HighOrderAdapter\HighOrderAdapter.csproj", "{99D2836B-4FEE-4BBD-9AC3-28D699C1AA3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositeMixingStrategy", "CompositeMixingStrategy\CompositeMixingStrategy.csproj", "{1A9F5F48-AC3A-4904-BD6C-401F06B01A5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeMixingTemplateMethod", "PrototypeMixingTemplateMethod\PrototypeMixingTemplateMethod.csproj", "{7EC66EA3-646E-4879-A997-0FB6208ED47C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +69,18 @@ Global
 		{201B034E-64BF-4494-B622-960BBF26D7E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{201B034E-64BF-4494-B622-960BBF26D7E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{201B034E-64BF-4494-B622-960BBF26D7E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99D2836B-4FEE-4BBD-9AC3-28D699C1AA3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99D2836B-4FEE-4BBD-9AC3-28D699C1AA3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99D2836B-4FEE-4BBD-9AC3-28D699C1AA3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99D2836B-4FEE-4BBD-9AC3-28D699C1AA3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A9F5F48-AC3A-4904-BD6C-401F06B01A5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A9F5F48-AC3A-4904-BD6C-401F06B01A5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A9F5F48-AC3A-4904-BD6C-401F06B01A5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A9F5F48-AC3A-4904-BD6C-401F06B01A5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EC66EA3-646E-4879-A997-0FB6208ED47C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EC66EA3-646E-4879-A997-0FB6208ED47C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EC66EA3-646E-4879-A997-0FB6208ED47C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EC66EA3-646E-4879-A997-0FB6208ED47C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
